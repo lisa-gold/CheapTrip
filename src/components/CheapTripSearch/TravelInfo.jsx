@@ -19,7 +19,7 @@ function TravelInfo({travelInfo}) {
     const [additionalInformation, setAdditionalInformation] = useState(null)
 
     useEffect(() => {
-        import(`../../cheapTripData/inner_jsons/${travelInfo.route}.json`)
+        import(`../../cheapTripData/${travelInfo.route}.json`)
             .then((res) => setAdditionalInformation(res.default))
             .catch(_ => null);
     }, [travelInfo.route])
