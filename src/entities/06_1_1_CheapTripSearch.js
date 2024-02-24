@@ -4,3 +4,5 @@
 // It builds routes using flying_routes, fixed_routes, common_routes (fake db for development phase ??)
 
 // ? forming lists and forming routes should be separated into different components
+
+import CheapTripSearch from "../CheapTripSearch/CheapTripSearch";

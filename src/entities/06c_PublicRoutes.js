@@ -3,6 +3,7 @@
 // it imports components (page parts) and
 // it makes an object where corresponding fields are connected together (route and corresponding component)
 
+import publicRoutes from '../../routes/publicRoutes';
 import {MAIN_ROUTE} from "../utils/constants";
 import {MainPageComponent} from "../components/MainPageComponent/MainPageComponent";
 

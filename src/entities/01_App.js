@@ -7,3 +7,4 @@
     // header
     // AppRouter (switcher between different parts of the app)
 
+import App from '../App';
