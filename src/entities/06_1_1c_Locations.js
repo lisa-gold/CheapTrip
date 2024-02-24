@@ -3,7 +3,7 @@
 // value includes city name, latitude and longitude
 // ! lack of country name value
 
-import locations from '../../cheapTripData/locations.json'
+import locations from '../cheapTripData/locations.json'
 
 // example
 export let example = {

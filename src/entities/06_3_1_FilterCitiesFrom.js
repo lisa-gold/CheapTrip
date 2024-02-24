@@ -6,7 +6,6 @@ import FiltersCitiesFrom from "../components/FiltersCitysFrom/FiltersCitiesFrom"
 import React, {Component} from 'react';
 import FilterComponent from "../components/Filter/FilterComponent";
 import i18n from "../i18n";
-import {getCities} from "../utils/cities";
 import {Button} from "@material-ui/core";
 
 class FilterCitiesFrom extends Component {

@@ -4,12 +4,12 @@ import { Contacts } from "../pages";
 import { MainPageComponent } from "../components/MainPageComponent/MainPageComponent";
 
 import {
-  MAIN_ROUTE,
-  PASSENGER_ROUTE,
+  MAIN_ROUTE,  // +
+  PASSENGER_ROUTE, // +
   BUS_ROUTE,
-  DRIVER_ROUTE,
+  DRIVER_ROUTE, // +
   TRANSFER_ROUTE,
-  CONTACTS_ROUTE,
+  CONTACTS_ROUTE, // +
 } from "../utils/constants";
 
 export const publicRoutes = [
