@@ -5,6 +5,21 @@
 
 import locations from '../cheapTripData/locations.json'
 
+class Location {
+    id;
+    name;
+    latitude;
+    longitude;
+    country_name; //should be added
+    constructor(id, name, latitude, longitude, country_name) {
+        this.id = id;
+        this.name = name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.country_name = country_name;
+    }
+}
+
 // example
 export let example = {
     "9":

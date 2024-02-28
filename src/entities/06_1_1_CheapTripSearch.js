@@ -7,7 +7,7 @@
 
 import CheapTripSearch from "../components/CheapTripSearch/CheapTripSearch";
 
-import {example, example2} from "./06_1_1c_Locations";
+import {example, example2} from "./!06_1_1c_Locations";
 import {Autocomplete, TextField} from "@mui/material";
 import React from "react";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
