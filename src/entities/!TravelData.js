@@ -4,7 +4,7 @@ class TravelInfo {
     route;
     from; // start city id
     to; // finish city id
-    transport; // transport id (glossary is needed id -> name)
+    transport; // transport id
     price; //euro
     duration; //min
     constructor(route, from, to, transport, price, duration) {
